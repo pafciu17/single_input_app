@@ -11,7 +11,7 @@ var gulp = require('gulp'),
 
 
 var options = {
-    distTargetDir: './app-build/image-browser/www'
+    distTargetDir: './dist'
 }
 
 gulp.task('serve', ['browserify'], function() {
