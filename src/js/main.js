@@ -6,7 +6,3 @@ React.render(
     <App />,
     document.getElementById('app')
 );
-
-getStores().then(function(someParams) {
-
-});
