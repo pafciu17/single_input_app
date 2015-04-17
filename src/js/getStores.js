@@ -1,7 +1,7 @@
 var Ajax = require('simple-ajax'),
     _ = require('lodash');
 
-var urlToStores = 'http://localhost:8002/backend_mock/stores.json';
+var urlToStores = 'backend_mock/stores.json';
 
 var filterStores = function(stores, param) {
     var param = param || '';
