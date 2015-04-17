@@ -1,0 +1,49 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.app {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.result-view, .input-view {
+    padding: 10px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    float: left;
+}
+
+.result-view {
+    background: #FFFFFF;
+    -webkit-transition: left 0.5s ease-in-out;
+    -moz-transition: left 0.5s ease-in-out;
+    -o-transition: left 0.5s ease-in-out;
+    transition: left 0.5s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+.result-list__item {
+    padding-bottom: 10px;
+}
+
+.search-form__label {
+    padding-right: 5px;
+}
+
+.search-form__button {
+    margin-left: 5px;
+}
+
+.search-form__input--error {
+    border-color: red;
+}
