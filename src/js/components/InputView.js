@@ -39,7 +39,7 @@ var InputView = React.createClass({
         var searchPhrase = this.refs.input.getDOMNode().value.trim();
         if (!this.searchPhraseIsValid(searchPhrase)) {
             this.markValidationError();
-            return false
+            return;
         }
         getStores(searchPhrase).then((stores) => {
             this.props.onSearch(searchPhrase, stores);

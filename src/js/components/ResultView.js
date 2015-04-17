@@ -20,7 +20,7 @@ var ResultView = React.createClass({
     getStoreNodes() {
         return this.props.stores.map((store) => {
             return (
-                <li className='result-list__item'>
+                <li key={store.Url} className='result-list__item'>
                     {this.getStoreDescription(store)}
                 </li>
             )
